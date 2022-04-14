@@ -1,0 +1,2 @@
+## Vectors
+1. Merge two vectors and store in v3 => merge(v1.begin(), v1.end(), v2.begin(), v2.end(), v3.begin())
