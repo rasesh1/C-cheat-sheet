@@ -1,2 +1,9 @@
 ## Vectors
 1. Merge two vectors and store in v3 => merge(v1.begin(), v1.end(), v2.begin(), v2.end(), v3.begin())
+
+## Sort a vector of strings by length
+bool cmp(const string& a, const string& b)
+{
+    return (a.size() < b.size());
+}
+sort(vec.begin(), vec.end(), cmp);
