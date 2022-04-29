@@ -7,3 +7,6 @@ bool cmp(const string& a, const string& b)
     return (a.size() < b.size());
 }
 sort(vec.begin(), vec.end(), cmp);
+
+## Generate a random number between i and j
+i + rand() % (j-i)
